@@ -4,12 +4,16 @@
 using namespace std;
 
 string termo;
+//termo recebe a palavra desejada
 
 int main() {
   cout << "Digite: \n";
   cin >> termo;
 
   int tecla; int qtde; int linha; int coluna;
+  //tecla é a qual deve ser pressionada
+  //qtde é a quantidade de vezes que a tecla deve ser pressionada
+
 
   char letras [4][8] = {{'a','d','g','j','m','p','t','w'}, {'b','e','h','k','n','q','u','x'}, {'c','f','i','l','o','r','v','y'}, {' ',' ',' ',' ',' ','s',' ','z'}};
 
